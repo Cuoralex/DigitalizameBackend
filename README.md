@@ -8,20 +8,22 @@ Backend del sistema **Digitalízame**, desarrollado con **Spring Boot** bajo arq
 
 digitalizame-backend/
 ├── src/
-│ ├── main/
-│ │ ├── java/
-│ │ │ └── com/
-│ │ │ └── digitalizame/
-│ │ │ ├── DigitalizameBackendApplication.java # Main
-│ │ │ ├── controller/ # Controladores REST (Capa Controller)
-│ │ │ ├── model/ # Entidades (Capa Modelo)
-│ │ │ ├── repository/ # Interfaces de persistencia JPA
-│ │ │ └── service/ # Lógica de negocio (Capa Service)
-│ │ └── resources/
-│ │ ├── application.properties # Configuración del proyecto
-│ │ └── static/ # Recursos estáticos (si aplica)
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/
+│   │   │       └── digitalizame/
+│   │   │           ├── DigitalizameBackendApplication.java  # Main
+│   │   │           ├── controller/   # ← Aquí irán tus Controladores REST (Capa C)
+│   │   │           ├── model/        # ← Aquí tus entidades (Capa M)
+│   │   │           ├── repository/   # ← Interfaces JPA
+│   │   │           └── service/      # ← Lógica de negocio (Capa S)
+│   │   └── resources/
+│   │       ├── application.properties
+│   │       └── static/
+│   └── test/
+│       └── ...
 ├── pom.xml
-└── README.md
+
 
 
 ---
